@@ -14,56 +14,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="">
 </head>
 
 <body>
-    <!--[if lt IE 7]>
-        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
 
-    <script src="" async defer></script>
+
+
+    <div class="header">
+        <div class="header-container">
+            <div class="logo">Lila Ouadi</div>
+            <div class="menu">
+                <a href="index.html">About</a>  |  <a href="portfolio.html">Portofolio</a>  |   <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="aboutme">Contact</div>
+        
+        <form action="/my-handling-form-page" method="post">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+            <div>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="user_mail">
+            </div>
+            <div>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+
+    </div>
 </body>
-<div class="header">
-    <div class="header-container">
-        <div class="logo">Lila Ouadi</div>
-        <div class="menu">
-            <a href="index.html">About</a> | <a href="portofolio.html">Portofolio</a> | <a
-                href="contact.html">Contact</a>
-        </div>
-    </div>
-</div>
-
-
-</div>
-</div>
-<div class="container">
-    <div class="title">
-        Portfolio
-
-    </div>
-    <div class="gallery">
-        <div class="card">
-            <span class="overlay"> Hangman</span>
-            <img src="https://www.fillmurray.com/300/200" class="picture">
-        </div>
-        <div class="card">
-            <span class="overlay"> RPG Game</span>
-            <img src="https://www.fillmurray.com/300/200" class="picture">
-        </div>
-        <div class="card">
-            <span class="overlay"> Trivia Game</span>
-            <img src="https://www.fillmurray.com/300/200" class="picture">
-        </div>
-        <div class="card">
-            <span class="overlay">Rutgers Info Widget</span>
-            <img src="https://www.fillmurray.com/300/200" class="picture">
-        </div>
-        <div class="card">
-            <span class="overlay">Rock Paer Scissors</span>
-            <img src="https://www.fillmurray.com/300/200" class="picture">
-        </div>
-    </div>
-</div>
 
 </html>
